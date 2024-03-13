@@ -8,7 +8,54 @@
     <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
 <body>
-    Hello
+    <nav id="desktop-nav">
+        <div class="logo">Gia Duong</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Gia Duong</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-picContainer">
+            <img src="./assets/Img/education1.png" alt="Gia profile pic">
+        </div>
+        <div class="sectionText">
+            <p class="sectionText1">Hello, I'm</p>
+            <h1 class="title">Gia Duong</h1>
+            <p class="sectionText2">Highschool Student</p>
+            <div class="btnContainer">
+                <button class="btnColor2" onclick="window.open('./assets/Gia-Duong-Resume.pdf')">Download CV</button>
+                <button class="btnColor1" onclick="location.href='#contact'">Contact Me</button>
+            </div>
+
+            <div id="social-container">
+                <img src="./assets/Img/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://github.com/GiaHDuong'">
+                <img src="./assets/Img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://www.linkedin.com/in/gia-duong-70804824b/'">
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
