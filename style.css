@@ -215,6 +215,12 @@ section {
     gap: 1rem;
 }
 
+#profile .section__text .btn-container {
+    gap: 1rem;
+    /* HERE */
+    background-color: #FCDC2A
+}
+
 /* ICONS */
 
 .icon {
