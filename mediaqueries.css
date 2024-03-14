@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
+      height: 50vh;
       margin-bottom: 6rem;
     }
     .about-containers {
@@ -21,7 +21,7 @@
     }
     #experience,
     .experience-details-container {
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
     #profile,
     .section-container {
@@ -50,18 +50,26 @@
   @media screen and (max-width: 600px) {
     #contact,
     footer {
-      height: 40vh;
+      height: 10vh;
     }
     #profile {
-      height: 83vh;
+      height: 20vh;
       margin-bottom: 0;
+    }
+    #about {
+      position: relative;
+      height: 50vh;
     }
     article {
       font-size: 1rem;
     }
+    #funfact {
+      position: relative;
+      margin-top: 10hv;
+    }
     footer nav {
       height: fit-content;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     .about-containers,
     .contact-info-upper-container,
