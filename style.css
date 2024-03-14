@@ -268,6 +268,8 @@ section {
 
 .btn-container {
     gap: 1rem;
+    /* HERE */
+    background-color: white;
 }
 
 /* ABOUT SECTION */
@@ -281,6 +283,12 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+/* HERE */
+.about-containers .details-container h3,
+.about-containers .details-container ul li {
+    background-color: white;
 }
 
 .about-details-container {
@@ -330,6 +338,12 @@ section {
     position: relative;
 }
 
+/* HERE */
+.experience-sub-title,
+.article-container p {
+    background-color: white;
+}
+
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
@@ -357,7 +371,7 @@ section {
 
 article {
     display: flex;
-    width: 10rem;
+    width: 15rem;
     justify-content: space-around;
     gap: 0.5rem;
     /* HERE */
@@ -412,16 +426,22 @@ article .icon {
     padding-bottom: 1rem;
     border-bottom: 2px solid black;
     cursor: pointer;
+    /* HERE */
+    background: white;
 }
 
 .question {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* HERE */
+    background: white;
 }
 
 .question h3 {
     font-size: 1.8rem;
+    /* HERE */
+    background: white;
 }
 
 .answer {
@@ -435,6 +455,8 @@ article .icon {
     padding-top: 1rem;
     line-height: 1.6;
     font-size: 1.4rem;
+    /* HERE */
+    background: white;
 }
 
 .faq.active .answer {
