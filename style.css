@@ -444,26 +444,15 @@ article .icon {
     background: white;
 }
 
-.question h3 {
-    font-size: 1.8rem;
-    /* HERE */
-    background: white;
-}
-
 .answer {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1.4s ease;
+    text-align: left;
+    margin-left: 20px;
 }
 
-.answer p {
-    text-align: left;
-    padding-top: 1rem;
-    line-height: 1.6;
-    font-size: 1.4rem;
-    /* HERE */
-    background: white;
-}
+
 
 .faq.active .answer {
     max-height: 300px;
