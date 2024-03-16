@@ -60,10 +60,16 @@
       max-width: 100%; /* Make the image width 100% of its container */
       height: auto; /* Maintain aspect ratio */
     }
-    
     #about {
       position: relative;
       height: 80vh;
+    }
+    #project {
+      height: 70hv;
+      margin-bottom: 0;
+    }
+    #contact {
+      height: 20vh;
     }
     article {
       font-size: 1rem;
