@@ -394,7 +394,6 @@ article .icon {
 
 #projects {
     position: relative;
-    margin-bottom: 25vh;
 }
 
 .color-container {
@@ -424,7 +423,8 @@ article .icon {
     align-items: center;
     flex-direction: column;
     height: 70vh;
-    width: 80%;
+    width: 90%;
+    margin-top: 0vh;
 }
 
 .faq {
@@ -452,8 +452,6 @@ article .icon {
     margin-left: 20px;
 }
 
-
-
 .faq.active .answer {
     max-height: 300px;
 }
@@ -464,7 +462,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50vh;
+    height: 20vh;
 }
 
 .contact-info-upper-container {

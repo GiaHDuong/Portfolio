@@ -68,15 +68,14 @@
       height: 70hv;
       margin-bottom: 0;
     }
-    #contact {
-      height: 20vh;
-    }
     article {
       font-size: 1rem;
     }
     #funfact {
       position: relative;
-      margin-top: 10hv;
+    }
+    #contact {
+      height: 50vh;
     }
     footer nav {
       height: fit-content;
