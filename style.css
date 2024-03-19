@@ -176,11 +176,10 @@ section {
     height: 80vh;
 }
 
-.section__pic-container {
+#profile .section__pic-container {
     margin: 0 0rem;
-    display: flex;
-    height: 400px;
     width: 400px;
+    height: 400px;
     margin: auto 0;
 }
 
@@ -332,9 +331,11 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
-    height: 450px;
-    width: 450px;
+#about .section__pic-container {
+    margin: 0 0rem;
+    display: flex;
+    width: 400px;
+    height: 400px;
     margin: auto 0;
 }
 
