@@ -177,9 +177,8 @@ section {
 }
 
 #profile .section__pic-container {
+    align-items: center;
     margin: 0 0rem;
-    width: 400px;
-    height: 400px;
     margin: auto 0;
 }
 
@@ -318,7 +317,6 @@ section {
 
 .details-container {
     padding: 2.5rem;
-    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -337,12 +335,14 @@ section {
     width: 400px;
     height: 400px;
     margin: auto 0;
+    padding-bottom: 2rem;
 }
 
 /* EXPERIENCE SECTION */
 
 #experience {
     position: relative;
+    height: 80vh;
 }
 
 /* HERE */
@@ -449,7 +449,7 @@ article .icon {
 .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
+    transition: max-height 1.0s ease;
     text-align: left;
     margin-left: 20px;
 }
