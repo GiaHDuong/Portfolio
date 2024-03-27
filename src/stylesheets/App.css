@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "MTOChaney";
-  src: url(../public/assets/Font/MTOChaney.ttf);
+  src: url(public/assets/font/MTOChaney.ttf);
 }
 
 * {

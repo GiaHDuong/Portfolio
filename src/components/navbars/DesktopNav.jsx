@@ -1,5 +1,5 @@
 import React from "react";
-import LogoSVG from "../../../public/icon1.svg";
+import LogoSVG from "../../../public/assets/img/icon1.svg";
 
 function DesktopNav() {
   return (

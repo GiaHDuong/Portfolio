@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import LogoSVG from "../../../public/assets/img/icon1.svg";
 
-export default function HamburgerNav() {
+function HamburgerNav() {
   // Define state to keep track of Mobile Navigation
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,7 +12,9 @@ export default function HamburgerNav() {
 
   return (
     <nav id="hamburger-nav">
-      <div className="logo">Gia Duong</div>
+      <div className="logo">
+        <img src={LogoSVG} alt="Logo" />
+      </div>
       <div className="hamburger-menu">
         <div
           className={`hamburger-icon ${menuOpen ? "open" : ""}`}
@@ -49,3 +52,5 @@ export default function HamburgerNav() {
     </nav>
   );
 }
+
+export default HamburgerNav;
