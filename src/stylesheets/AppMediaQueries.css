@@ -84,6 +84,9 @@
   #funfact {
     position: relative;
   }
+  .answer {
+    font-size: 15px;
+  }
   #contact {
     height: 30vh;
   }

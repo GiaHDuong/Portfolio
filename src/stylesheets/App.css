@@ -471,6 +471,7 @@ article .icon {
   transition: max-height 1s ease;
   text-align: left;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .faq.active .answer {

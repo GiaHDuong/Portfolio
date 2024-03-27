@@ -5,6 +5,9 @@ import HamburgerNav from "./components/navbars/HamburgerNav";
 import Profile from "./components/Profile";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import FunFact from "./components/Funfact";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Profile />
       <About />
       <Experience />
+      <FunFact />
+      <Contact />
+      <Footer />
     </>
   );
 }
