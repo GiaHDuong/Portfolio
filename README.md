@@ -10,12 +10,7 @@ Welcome to my portfolio project! This project showcases my skills and experience
 ## Project Overview:
 This project consists of several components and pages designed to highlight different sections about myself and fetch repository data from GitHub.
 
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
+### Components:
 
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-
-- :seedling: Exploring Technical Content Writing.
-
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
-
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+- **Navbar:** This component provides desktop and mobile responsiveness for easy navigation.
+- **About:** Various components providing information about different sections of myself, such as experience, fun facts, and profile.
