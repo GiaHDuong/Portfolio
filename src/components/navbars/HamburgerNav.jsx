@@ -11,7 +11,9 @@ function HamburgerNav() {
 
   return (
     <nav id="hamburger-nav">
-      <div className="logo">Gia Duong</div>
+      <div className="logo">
+        <img src="public/icon.svg" alt="Icon" />
+      </div>
       <div className="hamburger-menu">
         <div
           className={`hamburger-icon ${menuOpen ? "open" : ""}`}

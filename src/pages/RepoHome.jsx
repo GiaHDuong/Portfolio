@@ -1,7 +1,15 @@
-import "../stylesheets/index.css";
+// import "../stylesheets/index.css";
 import "../stylesheets/App.css";
+import "../stylesheets/AppMediaQueries.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+
+import Profile from "../components/Profile";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Funfact from "../components/Funfact";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function RepoHome() {
   const [user, setUser] = useState([]);
@@ -48,10 +56,22 @@ function RepoHome() {
 
   return (
     <>
-      <section className="repo-container">{userElements}</section>
-      <p className="view-more" onClick={viewMore}>
-        {showViewMore}
-      </p>
+      <Profile />
+      <About />
+      <Experience />
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">PROJECTS</h1>
+        <section className="repo-container">{userElements}</section>
+        <p className="view-more" onClick={viewMore}>
+          {showViewMore}
+        </p>
+      </section>
+
+      <Funfact />
+      <Contact />
+      <Footer />
     </>
   );
 }

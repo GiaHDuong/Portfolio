@@ -1,7 +1,9 @@
 export default function DesktopNav() {
   return (
     <nav id="desktop-nav">
-      <div class="logo">Gia Duong</div>
+      <div className="logo">
+        <img src="public/icon.svg" alt="Icon" />
+      </div>
       <div>
         <ul class="nav-links">
           <li>

@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/Gia-Duong-Resume.pdf')"
+            onClick={() => window.open("public/assets/Gia-Duong-Resume.pdf")}
           >
             Download CV
           </button>
@@ -21,13 +21,18 @@ export default function HeroSection() {
             src="./assets/Img/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/gia-duong-70804824b/'"
+            onClick={() =>
+              (window.location.href =
+                "https://www.linkedin.com/in/gia-duong-70804824b/g")
+            }
           />
           <img
             src="./assets/Img/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/GiaHDuong'"
+            onClick={() =>
+              (window.location.href = "https://github.com/GiaHDuong")
+            }
           />
         </div>
       </div>

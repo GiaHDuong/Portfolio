@@ -7,11 +7,13 @@ import {
   Route,
   Outlet,
 } from "react-router-dom";
-import App from "./App";
 import RepoHome from "./pages/RepoHome";
 import RepoDetails from "./pages/RepoDetails";
 import ErrorPage from "./pages/ErrorPage";
 import AppOutlet from "./pages/AppOutlet";
+
+import DesktopNav from "./components/navbars/DesktopNav";
+import HamburgerNav from "./components/navbars/HamburgerNav";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,7 +28,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <DesktopNav />
+    <HamburgerNav />
     <RouterProvider router={router} />
   </React.StrictMode>
 );
