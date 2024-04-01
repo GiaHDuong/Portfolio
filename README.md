@@ -6,7 +6,7 @@
 
 Welcome to my portfolio project! This project showcases my skills and experience using React and the GitHub API to fetch repository information.
 
-## Live Site: https://660acfb8bd2016c25e78b75e--giad-portfolio.netlify.app/
+## Live Site: [Here](https://660acfb8bd2016c25e78b75e--giad-portfolio.netlify.app/)
 ## Project Overview:
 This project consists of several components and pages designed to highlight different sections about myself and fetch repository data from GitHub.
 
