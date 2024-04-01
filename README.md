@@ -6,7 +6,6 @@
 
 Welcome to my portfolio project! This project showcases my skills and experience using React and the GitHub API to fetch repository information.
 
----
 
 ## Project Overview:
 
