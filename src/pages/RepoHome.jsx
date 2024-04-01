@@ -23,10 +23,10 @@ function RepoHome() {
       .then((response) => response.json())
       .then((data) => {
         if (data.length === 0) {
-          setShowViewMore("End of Repos");
+          setShowViewMore("[End of Repos]");
         } else {
           setUser([...user, ...data]);
-          setShowViewMore("View More");
+          setShowViewMore("[View More]");
         }
       });
   };
@@ -40,17 +40,41 @@ function RepoHome() {
   };
   const userElements = user.map((userElement) => {
     return (
-      <div className="repo-card" key={userElement.id}>
-        <Link to={`/repodetails/${userElement.name}`}>
-          <h2 className="repo-name">{userElement.name}</h2>
-        </Link>
-        <p className="language">
-          Langauge:{" "}
-          {userElement.language === null ? "none" : userElement.language}
-        </p>
-        <p className="date">Start date & time: {userElement.created_at}</p>
-        <p className="visibility">Visibility: {userElement.visibility}</p>
-      </div>
+      <>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <Link to={`/repodetails/${userElement.name}`}>
+                <h2 className="experience-sub-title">{userElement.name}</h2>
+              </Link>
+              <div class="article-container">
+                <article>
+                  <div>
+                    <h3>Langauge: </h3>
+                    <p>
+                      {userElement.language === null
+                        ? "none"
+                        : userElement.language}
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div>
+                    <h3>Start date & time: </h3>
+                    <p>{userElement.created_at}</p>
+                  </div>
+                </article>
+                <article>
+                  <div>
+                    <h3>Visibility</h3>
+                    <p>{userElement.visibility}</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
   });
 

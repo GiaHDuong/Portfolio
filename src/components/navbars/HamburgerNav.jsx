@@ -12,7 +12,7 @@ function HamburgerNav() {
   return (
     <nav id="hamburger-nav">
       <div className="logo">
-        <img src="public/icon.svg" alt="Icon" />
+        <img src="icon.svg" alt="Icon" />
       </div>
       <div className="hamburger-menu">
         <div
