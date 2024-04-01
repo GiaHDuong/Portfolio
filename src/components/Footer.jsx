@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
