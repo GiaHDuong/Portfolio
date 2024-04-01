@@ -28,8 +28,10 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <DesktopNav />
-    <HamburgerNav />
+    <>
+      <DesktopNav />
+      <HamburgerNav />
+    </>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
