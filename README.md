@@ -13,4 +13,8 @@ This project consists of several components and pages designed to highlight diff
 ### Components:
 
 - **Navbar:** This component provides desktop and mobile responsiveness for easy navigation.
-- **About:** Various components providing information about different sections of myself, such as experience, fun facts, and profile.
+- **Profile Sections:** Various components providing information about different sections of myself, such as experience, fun facts, and profile.
+
+### Technologies Used:
+- **React:** Utilized for building the user interface and managing components.
+- **GitHub API:** Integrated to fetch repository information dynamically.
