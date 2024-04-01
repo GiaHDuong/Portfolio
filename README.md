@@ -8,6 +8,7 @@ Welcome to my portfolio project! This project showcases my skills and experience
 
 
 ## Project Overview:
+This project consists of several components and pages designed to highlight different sections about myself and fetch repository data from GitHub.
 
 I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
 
