@@ -1,8 +1,9 @@
-import "../index.css";
+import "../stylesheets/index.css";
+import "../stylesheets/App.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function Home() {
+function RepoHome() {
   const [user, setUser] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [showViewMore, setShowViewMore] = useState("");
@@ -55,4 +56,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default RepoHome;
